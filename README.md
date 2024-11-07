@@ -1,1 +1,1 @@
-# qrcodenow
+# qrcodenow v1
