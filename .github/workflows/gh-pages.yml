@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages  
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
@@ -30,4 +30,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist/qrcodenow  # Altere para o diretório correto
+          publish_branch: gh-pages  # A branch de deploy
